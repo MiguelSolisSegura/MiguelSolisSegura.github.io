@@ -1,5 +1,14 @@
-name: Deploy Jekyll Site to GitHub Pages
+name: Permissions Only Workflow
+
+on: [push]
 
 permissions:
-  contents: write
-  id-token: write  # Explicitly specifying id-token permission
+  id-token: write
+  contents: read
+
+jobs:
+  skip-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Skip Job
+        run: echo "Job skipped. Only permissions are set."
