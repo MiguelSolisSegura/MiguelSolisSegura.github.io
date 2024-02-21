@@ -18,7 +18,7 @@ menu_settings:
       url: '/contact'
 
 footer_settings:
-  footer_tagline: Board – a stylish full-width masonry grid Jekyll theme
+  footer_tagline: Engineering Tomorrow, Today.
 
 grid_settings:
   overlay_opacity: 0.8
