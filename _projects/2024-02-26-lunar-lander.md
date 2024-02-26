@@ -92,7 +92,7 @@ A nice little feature: the carousel only advances when it is in view, so your vi
 
 Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
 
-<iframe width="300" height="200" src="https://www.youtube.com/embed/ebK3ZIm31t4?si=hxDAi8EliHqMu2JF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/ebK3ZIm31t4?si=Z4xGNwlxT0YyyhNH" width="300" height="200" frameborder="0"></iframe>
 
 ---
 
