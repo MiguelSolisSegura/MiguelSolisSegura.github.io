@@ -1,20 +1,14 @@
 ---
 title: 'Lunar Lander'
-subtitle: 'Beggining a Journey into Reinforcement Learning'
-date: 2018-06-30 00:00:00
-description: Board is a stylish full-width masonry grid theme. Made for designers, artists, photographers and developers to show off their best work.
+subtitle: 'Beginning a Journey into Reinforcement Learning'
 featured_image: 'project_data/2024-02-26-lunar-lander/cover.jpg'
 ---
 
-![](/images/demo/landscape-01.jpg)
+## Overview
 
-## Demo content
+Reinforcement learning has emerged as the primary framework for addressing challenges in Embodied Intelligence. According to Cangelosi et al., *"Embodied Intelligence involves understanding intelligent behavior in agents situated within their environments, considering the tight coupling between the agent and its surroundings mediated by its body, perceptual and motor system, and brain."*
 
-This page is a demo that shows everything you can do inside portfolio and blog posts.
-
-We've included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
-
-**Obviously,** we’ve styled up *all the basic* text formatting options [available in markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+The following project will start a series of entries to document my progress in the field of reinforcement learning as I master essential skills within the discipline.
 
 You can create lists:
 
