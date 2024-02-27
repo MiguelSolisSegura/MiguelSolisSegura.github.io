@@ -28,7 +28,7 @@ In the current project I embarked on an exploratory journey into the fascinating
 ## Process and Development:
 The development of the current project began with a foundational study of reinforcement learning principles, focusing on understanding how agents learn from interactions within an environment to achieve specific goals. The Gymnasium's lunar lander environment served as a perfect sandbox for applying these concepts, requiring the agent to make a series of decisions to land safely on the lunar surface.
 
-### Key Features of the Lunar Lander Environment
+## Key Features of the Lunar Lander Environment
 
 The lunar lander, as any other RL environment, has several components that define its dynamics.
 
