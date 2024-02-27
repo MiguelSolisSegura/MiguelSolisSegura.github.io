@@ -4,6 +4,8 @@ subtitle: 'An introduction to Reinforcement Learning'
 featured_image: 'project_data/2024-02-26-lunar-lander/cover.jpg'
 ---
 
+![](project_data/2024-02-26-lunar-lander/short_cover.jpg)
+
 Imagine you're teaching a dog new tricks. You reward the dog with a treat when it does something right (like sitting on command) and perhaps withhold treats or give a gentle verbal cue when it does something wrong. Over time, the dog learns to perform the trick correctly to maximize its treats. This is the essence of reinforcement learning: an AI agent (like the dog) learns to make decisions by performing actions in an environment to achieve some goal, receiving rewards or penalties based on its actions.
 
 Reinforcement Learning (RL) plays a significant role in robotics, particularly in tasks that require autonomous decision-making under uncertain conditions. RL algorithms enable robots to learn from their interactions with the environment, allowing them to adapt and improve their behavior over time. In robotics, RL finds applications in various domains such as:
