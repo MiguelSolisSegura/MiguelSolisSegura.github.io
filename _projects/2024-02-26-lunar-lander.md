@@ -99,6 +99,8 @@ After training, the model's performance is evaluated on a new instance of the en
 
 The criteria for considering a success in solving this environment, is a mean reward of 200 points after discounting one standard deviation. After the first training attempt, this condition was not met. Although it is possible to configure several parameters of the PPO algorithm, at the current state of my experience in the field, it was just easier to train the agent for longer. Without any further changes, the agent was able to accomplish the task successfully:
 
+![](/project_data/2024-02-26-lunar-lander/policy.gif)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ebK3ZIm31t4?si=zCAKrB_AcQr7cPJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Results and Impact:
