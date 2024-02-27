@@ -48,11 +48,11 @@ Stable Baselines 3 (SB3) is a popular library in the field of reinforcement lear
 
 ### Proximal Policy Optimization (PPO): A High-Level Overview
 
-In RL, a "policy" is essentially the strategy that the AI agent follows to decide what action to take in a given situation. Think of it as the dog's thought process that leads it to decide whether to sit, stay, roll over, etc., based on the command given and its desire to get a treat.
+In RL, a *policy* is essentially the strategy that the AI agent follows to decide what action to take in a given situation. Think of it as the dog's thought process that leads it to decide whether to sit, stay, roll over, etc., based on the command given and its desire to get a treat.
 
 PPO is a specific method used to teach the AI agent how to improve its policy (strategy) over time. It's like finding a more efficient way to teach the dog tricks, ensuring it learns faster and more reliably without getting confused or stuck on bad behaviors.
 
-The "proximal" part of PPO is about keeping the new strategy (policy) close to the old one but slightly improved. Imagine if you suddenly changed how you teach the dog from one day to the next; the dog might get confused. PPO tries to avoid confusing the AI agent by making sure that updates to the policy are small but effective, helping it to learn steadily and avoid making big mistakes.
+The *proximal* part of PPO is about keeping the new strategy (policy) close to the old one but slightly improved. Imagine if you suddenly changed how you teach the dog from one day to the next; the dog might get confused. PPO tries to avoid confusing the AI agent by making sure that updates to the policy are small but effective, helping it to learn steadily and avoid making big mistakes.
 
 ### Integration with the Lunar Lander Environment
 
