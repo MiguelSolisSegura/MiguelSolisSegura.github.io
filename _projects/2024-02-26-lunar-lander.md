@@ -108,4 +108,4 @@ The project culminated in the successful development of an RL agent capable of c
 - An initial understanding of reinforcement learning principles and their application in solving complex, dynamic problems.
 
 **Additional Resources:**
-[Link to the HuggingFace repository containing the trained agent](https://huggingface.co/miguelsolis/ppo-LunarLander-v2)
+- [Link to the HuggingFace repository containing the trained agent](https://huggingface.co/miguelsolis/ppo-LunarLander-v2)
