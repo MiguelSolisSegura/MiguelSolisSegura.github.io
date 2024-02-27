@@ -101,8 +101,6 @@ The criteria for considering a success in solving this environment, is a mean re
 
 ![](/project_data/2024-02-26-lunar-lander/policy.gif)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ebK3ZIm31t4?si=zCAKrB_AcQr7cPJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 ### Results and Impact:
 The project culminated in the successful development of an RL agent capable of consistently achieving safe and efficient landings in the lunar lander environment. Key outcomes include:
 
