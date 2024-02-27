@@ -30,6 +30,8 @@ The development of the current project began with a foundational study of reinfo
 
 ### Key Features of the Lunar Lander Environment
 
+The lunar lander, as any other RL environment, has several components that define its dynamics.
+
 - **Objective:** The main goal is to land the lunar module between two flags marking the landing pad. The landing must be soft, and the module must remain upright to achieve a successful landing. The environment is considered solved when the agent achieves a score of 200 points over 100 consecutive trials.
 
 - **Actions:** The agent can perform discrete actions such as doing nothing, firing the left orientation engine, firing the main engine, or firing the right orientation engine. These actions allow the module to control its angle and descent speed.
