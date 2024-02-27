@@ -4,25 +4,31 @@ subtitle: 'An introduction to Reinforcement Learning'
 featured_image: 'project_data/2024-02-26-lunar-lander/cover.jpg'
 ---
 
-In the current project I embarked on an exploratory journey into the fascinating world of reinforcement learning (RL), with a focus on mastering the complex dynamics of landing a module on the lunar surface. The primary goal was to demonstrate how reinforcement learning has the potential to simulate and solve real-world problems, such as precision landing in space missions. By leveraging the Gymnasium's lunar lander environment, this project showcases the potential of RL in robotics and its significance in achieving autonomous decision-making under uncertain conditions.
+Imagine you're teaching a dog new tricks. You reward the dog with a treat when it does something right (like sitting on command) and perhaps withhold treats or give a gentle verbal cue when it does something wrong. Over time, the dog learns to perform the trick correctly to maximize its treats. This is the essence of reinforcement learning: an AI agent (like the dog) learns to make decisions by performing actions in an environment to achieve some goal, receiving rewards or penalties based on its actions.
 
-### Objectives:
+Reinforcement Learning (RL) plays a significant role in robotics, particularly in tasks that require autonomous decision-making under uncertain conditions. RL algorithms enable robots to learn from their interactions with the environment, allowing them to adapt and improve their behavior over time. In robotics, RL finds applications in various domains such as:
+
+- Autonomous navigation and path planning
+- Manipulation and dexterous hand control
+- Robot locomotion and motion control
+- Task automation and optimization
+
+In the current project I embarked on an exploratory journey into the fascinating world of reinforcement learning, with a focus on mastering the dynamics of landing a module on the lunar surface. The primary goal was to demonstrate how reinforcement learning has the potential to simulate and solve real-world problems, such as precision landing in space missions, starting with a simple example.
+
+## Objectives:
 - To understand and apply the basics of reinforcement learning in a practical scenario.
 - To train an agent capable of successfully landing on the lunar surface within the Gymnasium's lunar lander environment.
-- To highlight the importance of reinforcement learning in robotics, particularly in tasks requiring precise control and decision-making.
 
-### Technologies and Tools:
+## Technologies and Tools:
 - **Programming Language:** Python
-- **Libraries/Frameworks:** Gymnasium (for RL environment), Stable Baselines3 (for creating the RL agent).
+- **Frameworks:** Gymnasium (for RL environment), Stable Baselines3 (for creating the RL agent).
 - **Tools:** Google Colab (for code experimentation and demonstration)
 - **Version Control:** Git (for code repository management)
 
-### Process and Development:
+## Process and Development:
 The development of the current project began with a foundational study of reinforcement learning principles, focusing on understanding how agents learn from interactions within an environment to achieve specific goals. The Gymnasium's lunar lander environment served as a perfect sandbox for applying these concepts, requiring the agent to make a series of decisions to land safely on the lunar surface.
 
-The Lunar Lander environment, as hosted by Gymnasium (formerly known as Gym by OpenAI), is a simulation used in reinforcement learning (RL) to train agents to perform the task of landing a spacecraft on the surface of the moon. This environment is part of the Box2D group of environments, which are based on the Box2D physics engine, offering a realistic simulation of physical systems. The Lunar Lander environment specifically challenges agents to safely land a lunar module on the moon, navigating through the perils of space flight with limited fuel and in the presence of gravity.
-
-#### Key Features of the Lunar Lander Environment:
+### Key Features of the Lunar Lander Environment
 
 - **Objective:** The main goal is to land the lunar module between two flags marking the landing pad. The landing must be soft, and the module must remain upright to achieve a successful landing. The environment is considered solved when the agent achieves a score of 200 points over 100 consecutive trials.
 
@@ -32,30 +38,21 @@ The Lunar Lander environment, as hosted by Gymnasium (formerly known as Gym by O
 
 - **Rewards:** The reward system in the Lunar Lander environment is designed to encourage successful landings while penalizing excessive fuel use and crashes. Points are awarded for landing on the landing pad and for fuel-efficient flight, whereas points are subtracted for using fuel and for crashing or coming down too hard.
 
-- **Graphics and Physics:** The environment features simple yet effective 2D graphics that visually represent the lunar module, the landing area, and the surrounding space. The physics engine accurately models gravity, inertia, and the effects of the module's thrusters, providing a realistic landing experience.
+### Stable Baselines 3
 
-- **Customization:** While the basic setup of the Lunar Lander environment is fixed, researchers and developers can tweak certain parameters or the reward structure to experiment with different learning strategies or to increase the challenge for the RL agent.
-
-This environment is widely used in RL research and education due to its balance of simplicity and complexity. It provides a clear, achievable objective, a rich set of actions and states for the agent to learn from, and a direct analogy to real-world challenges in space exploration. The Lunar Lander environment serves as an excellent platform for both beginners and experienced practitioners in reinforcement learning to develop, test, and refine their algorithms.
-
-
-### Stable Baselines 3: An Introduction
-
-Stable Baselines 3 (SB3) is a popular library in the field of reinforcement learning (RL) that provides implementations of state-of-the-art RL algorithms. It is designed for ease of use, efficiency, and reproducibility. Built on PyTorch, SB3 allows both novices and experts to leverage powerful RL algorithms for training, evaluating, and deploying agents that can learn from their environment. The library focuses on providing a simple and consistent API, comprehensive documentation, and a collection of pre-trained models to facilitate the development of RL applications.
+Stable Baselines 3 (SB3) is a popular library in the field of reinforcement learning that provides implementations of state-of-the-art RL algorithms. It is designed for ease of use, efficiency, and reproducibility. Built on PyTorch, SB3 allows both novices and experts to leverage powerful RL algorithms for training, evaluating, and deploying agents that can learn from their environment. The library focuses on providing a simple and consistent API, comprehensive documentation, and a collection of pre-trained models to facilitate the development of RL applications.
 
 ### Proximal Policy Optimization (PPO): A High-Level Overview
 
-Proximal Policy Optimization (PPO) is an advanced policy gradient method used in reinforcement learning. It addresses the challenges of training stability and sample efficiency that are common in other policy gradient methods like TRPO (Trust Region Policy Optimization). PPO achieves this by optimizing a surrogate objective function, which ensures that the policy update steps are not too large, preventing destabilizing updates to the policy.
+In RL, a "policy" is essentially the strategy that the AI agent follows to decide what action to take in a given situation. Think of it as the dog's thought process that leads it to decide whether to sit, stay, roll over, etc., based on the command given and its desire to get a treat.
 
-PPO is characterized by two main features:
-- **Clipped Surrogate Objective:** PPO limits the policy update step by clipping the probability ratio between the new and old policies, ensuring modest updates and preventing the policy from changing too drastically in a single iteration.
-- **Multiple Epochs of Stochastic Gradient Descent (SGD):** Unlike some algorithms that update the policy from a batch of experiences only once, PPO iterates over the same batch multiple times to perform more fine-grained updates.
+PPO is a specific method used to teach the AI agent how to improve its policy (strategy) over time. It's like finding a more efficient way to teach the dog tricks, ensuring it learns faster and more reliably without getting confused or stuck on bad behaviors.
 
-This combination of strategies makes PPO particularly appealing for a wide range of applications, including robotics, gaming, and beyond, due to its balance between simplicity, efficiency, and effectiveness.
+The "proximal" part of PPO is about keeping the new strategy (policy) close to the old one but slightly improved. Imagine if you suddenly changed how you teach the dog from one day to the next; the dog might get confused. PPO tries to avoid confusing the AI agent by making sure that updates to the policy are small but effective, helping it to learn steadily and avoid making big mistakes.
 
-### Integration with the Lunar Lander Environment: Code Snippets Explained
+### Integration with the Lunar Lander Environment
 
-The integration of Stable Baselines 3 with the Gymnasium's Lunar Lander environment is a practical example of how to apply PPO for training an RL agent. Below is a breakdown of the code snippets provided, illustrating the setup, training, and evaluation process.
+The integration of Stable Baselines 3 with the Gymnasium's Lunar Lander environment is a practical example of how to apply PPO for training an RL agent. Below is a breakdown of a few code snippets of the implementation, illustrating the setup, training, and evaluation process.
 
 **Environment Setup**
 
@@ -65,7 +62,7 @@ import gymnasium as gym
 # First, we create our environment called LunarLander-v2
 env = gym.make("LunarLander-v2")
 
-# Then we reset this environment
+# Then we reset this environment to a known state
 observation, info = env.reset()
 ```
 
@@ -76,7 +73,9 @@ This snippet is about initializing the Lunar Lander environment. The `gym.make("
 ```python
 # Vectorize the environment
 env = make_vec_env('LunarLander-v2', n_envs=16)
+# Instance the desired model
 model = PPO("MlpPolicy", env, verbose=1)
+# Train the agent over 200,000 steps
 model.learn(total_timesteps=int(2e5))
 ```
 
@@ -92,7 +91,11 @@ eval_env = gym.make('LunarLander-v2')
 mean_reward, std_reward = evaluate_policy(model, eval_env, n_eval_episodes=10)
 ```
 
-After training, the model's performance is evaluated on a new instance of the environment. The `evaluate_policy` function runs the trained model for 10 episodes, using a deterministic approach to action selection. This evaluates the agent's performance in terms of average reward and its consistency (standard deviation).
+After training, the model's performance is evaluated on a new instance of the environment, a common practice to ensure the validity of results. The `evaluate_policy` function runs the trained model for 10 episodes, using a deterministic approach to action selection. This evaluates the agent's performance in terms of average reward and its consistency (standard deviation).
+
+The criteria for considering a success in solving this environment, is a mean reward of 200 points after discounting one standard deviation. After the first training attempt, this condition was not met. Although it is possible to configure several parameters of the PPO algorithm, at the current state of my experience in the field, it was just easier to train the agent for longer. Without any further changes, the agent was able to accomplish the task successfully:
+
+![](project_data/2024-02-26-lunar-lander/policy.gif)
 
 ### Results and Impact:
 The project culminated in the successful development of an RL agent capable of consistently achieving safe and efficient landings in the lunar lander environment. Key outcomes include:
@@ -101,5 +104,4 @@ The project culminated in the successful development of an RL agent capable of c
 - An initial understanding of reinforcement learning principles and their application in solving complex, dynamic problems.
 
 **Additional Resources:**
-- *Link to the GitHub repository containing the trained agent.* [Placeholder for GitHub repository link]
-- *Link to a video showcasing the trained agent successfully landing.* [Placeholder for video link]
+- *Link to the HuggingFace repository containing the trained agent.* [https://huggingface.co/miguelsolis/ppo-LunarLander-v2]
