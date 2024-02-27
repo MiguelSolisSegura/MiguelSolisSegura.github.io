@@ -28,17 +28,17 @@ In the current project I embarked on an exploratory journey into the fascinating
 ## Process and Development:
 The development of the current project began with a foundational study of reinforcement learning principles, focusing on understanding how agents learn from interactions within an environment to achieve specific goals. The Gymnasium's lunar lander environment served as a perfect sandbox for applying these concepts, requiring the agent to make a series of decisions to land safely on the lunar surface.
 
-## Key Features of the Lunar Lander Environment
+### Key Features of the Lunar Lander Environment
 
 The lunar lander, as any other RL environment, has several components that define its dynamics.
 
-- Objective: The main goal is to land the lunar module between two flags marking the landing pad. The landing must be soft, and the module must remain upright to achieve a successful landing. The environment is considered solved when the agent achieves a score of 200 points over 100 consecutive trials.
+**Objective**: The main goal is to land the lunar module between two flags marking the landing pad. The landing must be soft, and the module must remain upright to achieve a successful landing. The environment is considered solved when the agent achieves a score of 200 points over 100 consecutive trials.
 
-- **Actions:** The agent can perform discrete actions such as doing nothing, firing the left orientation engine, firing the main engine, or firing the right orientation engine. These actions allow the module to control its angle and descent speed.
+**Actions:** The agent can perform discrete actions such as doing nothing, firing the left orientation engine, firing the main engine, or firing the right orientation engine. These actions allow the module to control its angle and descent speed.
 
-- **State Space:** The environment provides an observation space that includes information such as the module's position, velocity, angle, angular velocity, and whether each leg is in contact with the ground. This comprehensive state representation enables the agent to make informed decisions to achieve a safe landing.
+**State Space:** The environment provides an observation space that includes information such as the module's position, velocity, angle, angular velocity, and whether each leg is in contact with the ground. This comprehensive state representation enables the agent to make informed decisions to achieve a safe landing.
 
-- **Rewards:** The reward system in the Lunar Lander environment is designed to encourage successful landings while penalizing excessive fuel use and crashes. Points are awarded for landing on the landing pad and for fuel-efficient flight, whereas points are subtracted for using fuel and for crashing or coming down too hard.
+**Rewards:** The reward system in the Lunar Lander environment is designed to encourage successful landings while penalizing excessive fuel use and crashes. Points are awarded for landing on the landing pad and for fuel-efficient flight, whereas points are subtracted for using fuel and for crashing or coming down too hard.
 
 ### Stable Baselines 3
 
