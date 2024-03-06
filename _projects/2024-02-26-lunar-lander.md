@@ -2,6 +2,7 @@
 title: 'Mastering Lunar Landing'
 subtitle: 'An introduction to Reinforcement Learning'
 featured_image: 'project_data/2024-02-26-lunar-lander/policy.gif'
+date: 2024-02-27
 ---
 
 Imagine you're teaching a dog new tricks. You reward the dog with a treat when it does something right (like sitting on command) and perhaps withhold treats or give a gentle verbal cue when it does something wrong. Over time, the dog learns to perform the trick correctly to maximize its treats. This is the essence of reinforcement learning: an AI agent (like the dog) learns to make decisions by performing actions in an environment to achieve some goal, receiving rewards or penalties based on its actions.
