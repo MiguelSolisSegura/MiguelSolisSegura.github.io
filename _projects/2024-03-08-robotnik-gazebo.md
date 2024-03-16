@@ -4,6 +4,13 @@ subtitle: 'Practical Applications of ROS, Gazebo, and Autodesk Fusion in Robotic
 featured_image: 'project_data/2024-03-05-gazebo/motion.gif'
 date: 2024-03-08
 ---
+## Introduction 
+
+The Robotics Operating System (ROS) and Gazebo are pivotal in robotics, offering a framework for developing robot software and a simulation environment for testing robotic systems, respectively. This portfolio entry, 'Simulation and Control Design in RB-1 Robotnik Robot,' showcases the use of ROS and Gazebo, along with Autodesk Fusion, to develop a simplified version of the RB-1 Robotnik robot. Highlighting the integration of these tools in robot simulation and control, this project exemplifies how such technologies are crucial for advancing robotics research and development. Through this work, the entry illustrates the key role of ROS and Gazebo in facilitating the complex process of robotic system design and testing, contributing valuable insights into the field of robotics.
+
+## Objectives
+- Create a detailed Gazebo simulation of the RB-1 Robotnik, emphasizing accurate structure and sensor simulation.
+- Develop custom ROS services to enhance the RB-1 Robotnik's control and interaction within its simulated environment.
 
 ## Tools and Technologies
 - ROS (Robot Operating System)
@@ -15,9 +22,6 @@ date: 2024-03-08
 
 ## Source Code 
 [GitHub Repository](https://github.com/MiguelSolisSegura/my_rb1_robot)
-
-## Objective 
-This portfolio entry documents the process of utilizing ROS and Gazebo to develop and control a simplified version of the RB-1 Robotnik robot. The project serves to highlight practical skills in simulation and custom control implementation using advanced robotics tools.
 
 ## Process and Development
 
