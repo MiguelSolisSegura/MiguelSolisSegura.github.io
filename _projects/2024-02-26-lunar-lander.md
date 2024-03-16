@@ -26,10 +26,10 @@ Reinforcement Learning (RL) is a pivotal technology in robotics and autonomous s
 The project began with a foundational exploration of reinforcement learning, aiming to understand how agents learn from interactions to achieve specific objectives. Utilizing the Gymnasium lunar lander environment, the project focused on training an agent to make decisions that result in a successful landing.
 
 ### Key Features of the Lunar Lander Environment
-- **Objective:** Safely land the lunar module on a designated pad, achieving a soft landing without tilting.
-- **Actions:** The agent chooses from discrete actions, such as firing different engines, to control the module's orientation and descent.
-- **State Space:** Includes the module's position, velocity, angle, angular velocity, and leg contact with the ground.
-- **Rewards:** Points are awarded or subtracted based on landing precision, fuel efficiency, and avoidance of crashes.
+**Objective:** Safely land the lunar module on a designated pad, achieving a soft landing without tilting.
+**Actions:** The agent chooses from discrete actions, such as firing different engines, to control the module's orientation and descent.
+**State Space:** Includes the module's position, velocity, angle, angular velocity, and leg contact with the ground.
+**Rewards:** Points are awarded or subtracted based on landing precision, fuel efficiency, and avoidance of crashes.
 
 ### Implementation Using Stable Baselines 3
 Stable Baselines 3 facilitated the application of the Proximal Policy Optimization (PPO) algorithm, a policy improvement method that ensures gradual and effective learning. The integration with the lunar lander environment involved setting up the environment, training the agent with PPO, and evaluating the model's performance.
