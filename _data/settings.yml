@@ -56,7 +56,7 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: 'www.linkedin.com/in/miguel-ss'
+  linkedin_url: 'https://linkedin.com/in/miguel-ss'
 
 color_settings:
   background_color: '#ffffff'
