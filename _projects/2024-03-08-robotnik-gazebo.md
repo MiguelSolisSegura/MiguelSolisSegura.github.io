@@ -1,7 +1,7 @@
 ---
 title: 'Simulation and Control Design in RB-1 Robotnik Robot'
 subtitle: 'Practical Applications of ROS, Gazebo, and Autodesk Fusion in Robotics'
-featured_image: 'project_data/2024-03-05-gazebo/motion.gif'
+featured_image: 'project_data/2024-03-05-gazebo/cover.gif'
 date: 2024-03-08
 ---
 
@@ -35,7 +35,7 @@ The project initiated with the RB-1 Robotnik's definition using the Unified Robo
 
 In Gazebo, the simulated environment was prepared for the robot's mobility, facilitated by a differential drive mechanism. This setup was essential for enabling smooth navigation. Furthermore, a Lidar sensor was integrated into the robot's model to enhance its ability to navigate by detecting obstacles and mapping its surroundings.
 
-![](/project_data/2024-03-05-gazebo/motion.gif)
+![](/project_data/2024-03-05-gazebo/motion_reduced.gif)
 
 ### Control Enhancement: Custom ROS Services
 The development phase extended to improving the robot's control through custom ROS services. A new package, `my_rb1_ros`, was created to house the `rotate_service.cpp` script, introducing a service that allowed for the robot to be rotated based on user input specifying the desired angle.
