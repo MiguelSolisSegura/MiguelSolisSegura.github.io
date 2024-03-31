@@ -26,10 +26,9 @@ In the evolving landscape of robotics, the simulation of interactive and dynamic
 ## Process and Development
 The development journey is bifurcated into creating the base robot model with URDF and refining the model using XACRO macros, alongside setting up a playful simulation environment. The robots were modeled after the following real barista robots:
 
-<div class="gallery" data-columns="1">
-	<img src="/project_data/2024-03-27-barista-robots-p1/rick_and_morty.jpg">
-	<img src="/project_data/2024-03-27-barista-robots-p1/barista_robot_drawing.png">
-</div>
+![](/project_data/2024-03-27-barista-robots-p1/rick_and_morty.jpg)
+![](/project_data/2024-03-27-barista-robots-p1/barista_robot_drawing.png)
+
 
 ### Base Robot Model Creation
 **Initial Setup:** Commenced with cloning the essential repositories and configuring the Git environment tailored for the project requirements.
