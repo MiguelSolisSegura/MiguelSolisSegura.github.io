@@ -1,7 +1,7 @@
 ---
 title: 'Development of a Simulated "Catch Me If You Can" Game with TF and URDF (II)'
 subtitle: 'Enhancing Robotics Simulation with Interactive Chase Mechanics'
-featured_image: 'project_data/2024-03-31-barista-robots-p2/barista_robot.gif'
+featured_image: 'project_data/2024-03-31-barista-robots-p2/robot_chase.gif'
 date: 2024-03-31
 ---
 
