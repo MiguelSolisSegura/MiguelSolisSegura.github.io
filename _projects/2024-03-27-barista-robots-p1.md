@@ -1,5 +1,5 @@
 ---
-title: 'Development of a Simulated "Catch Me If You Can" Game with TF and URDF/XACRO (I)'
+title: 'Development of a Simulated "Catch Me If You Can" Game with TF and URDF (I)'
 subtitle: 'Engineering a Dynamic Robot Chase Simulation Using Advanced Robotics Modeling Techniques'
 featured_image: 'project_data/2024-03-27-barista-robots-p1/barista_robot.gif'
 date: 2024-03-27
@@ -15,13 +15,14 @@ In the evolving landscape of robotics, the simulation of interactive and dynamic
 ## Tools and Technologies
 
 - **Programming Languages:** XML for URDF/XACRO
-- **Frameworks and Libraries:** ROS2, urdf, ros_tf2
+- **Frameworks and Libraries:** ROS2, URDF
 - **Simulation Environment:** Gazebo Classic
 - **CAD & Modelling:** Autodesk Fusion, Blender
 - **Version Control:** Git
 
 ## Source Code
-- [GitHub Barista Robots Repository](https://github.com/MiguelSolisSegura/barista_robots)
+- [GitHub Barista Robot Repository](https://github.com/MiguelSolisSegura/barista_robot_description)
+- [Related Project](https://miguelsolissegura.com/project/barista-robots-p2)
 
 ## Process and Development
 The development journey is bifurcated into creating the base robot model with URDF and refining the model using XACRO macros, alongside setting up a playful simulation environment. The robots were modeled after the following real barista robots:
