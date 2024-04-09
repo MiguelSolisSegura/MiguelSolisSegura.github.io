@@ -20,7 +20,7 @@ This project explores the advanced programming paradigm introduced in ROS2, focu
 - **Version Control:** Git
 
 ## Source Code
-- [GitHub Repository](https://github.com/MiguelSolisSegura/checkpoint9)
+- [GitHub Repository](https://github.com/MiguelSolisSegura/warehouse_robotics)
 
 ## Process and Development
 The development process is structured around the conversion of existing ROS2 nodes from [this previous entry](https://miguelsolissegura.com/project/shelf-attachment) into components, specifically focusing on the tasks of pre-approaching and attaching the RB1 robot to a warehouse shelf.
