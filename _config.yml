@@ -52,7 +52,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-paginate: 10
+paginate: 1000
 paginate_path: "/blog/page:num/"
 
 grid_alignments:
