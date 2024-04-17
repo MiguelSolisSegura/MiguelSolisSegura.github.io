@@ -1,8 +1,8 @@
 ---
-**title**: 'Autonomous Navigation System for Warehouse Robotics'
-**subtitle**: 'Development and Integration of a Navigation Solution for the RB-1 Mobile Robot in a Warehouse Environment'
-**featured_image**: 'project_data/2024-04-13-navigation-system/navigation.gif'
-**date**: 2024-04-13
+title: 'Autonomous Navigation System for Warehouse Robotics'
+subtitle: 'Development and Integration of a Navigation Solution for the RB-1 Mobile Robot in a Warehouse Environment'
+featured_image: 'project_data/2024-04-13-navigation-system/navigation.gif'
+date: 2024-04-13
 ---
 
 ## Introduction
