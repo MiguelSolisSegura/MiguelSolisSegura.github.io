@@ -27,10 +27,12 @@ The project extends the foundational navigation setup from the [previous entry](
 
 ### Task Execution via Simple Commander API
 **Setup and Initial Navigation:** Configured the robot to start at the initial position, navigate to a predefined loading position, and engage with a physical object (a shelf).
+
 **Obstacle Avoidance:** Integrated a Costmap Filter with a Keepout Mask to navigate around strategically placed cones within the warehouse environment.
 
 ### Interaction with Physical Objects
 **Object Manipulation:** Programmed the RB-1 to lift and transport the shelf using an elevator mechanism within the robot. Adjusted the robot’s navigation shape in real-time to accommodate the added dimensions of the carried shelf.
+
 **Task Completion and Reset:** Once the task at the shipping position was completed, the robot was programmed to safely unload the shelf and return to its initial position.
 
 ![Enhanced Navigation System](/project_data/2024-04-19-navigation-enhancements/enhanced_navigation.gif)
