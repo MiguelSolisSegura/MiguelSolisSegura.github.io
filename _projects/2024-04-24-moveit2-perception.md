@@ -31,12 +31,12 @@ This project was divided into key development stages, focusing on the integratio
 
 **Integration:** Linked the perception node outputs directly to the MoveIt2 controlled Pick & Place task, allowing the robotic arm to adapt its operations based on real-time data.
 
+![](/project_data/2024-04-24-moveit2-perception/pick_place_perception.gif)
+
 ### Real and Simulated Environment Testing
 **Simulation Testing:** Validated the integrated system in a simulated environment to ensure accurate object detection and manipulation without any physical risks.
 
 **Real Robot Testing:** After successful simulation tests, the system was implemented on the actual UR3e robotic arm to handle real objects, fine-tuning the perception algorithms and robotic movements for optimal performance.
-
-![](/project_data/2024-04-24-moveit2-perception/pick_place_perception.gif)
 
 ## Results
 The integration of perception technology allowed for a more dynamic and flexible robotic system. The UR3e arm successfully performed the Pick & Place tasks by dynamically locating and interacting with objects, demonstrating significant advancements over traditional pre-programmed robotic systems.
