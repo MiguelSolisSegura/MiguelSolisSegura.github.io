@@ -1,48 +1,54 @@
 ---
-title: 'Mobile Robot Path Planning with Nav2 and Dijkstra’s Algorithm'
-subtitle: 'Implementing Dijkstra's Algorithm as an Exercise in Path Planning'
-featured_image: 'project_data/2024-05-11-arm-kinematics/kinematics.gif'
+title: 'Mobile Robot Path Planning with Nav2 and Dijkstra Algorithm'
+subtitle: 'Implementing Dijkstra Algorithm as an Exercise in Path Planning'
+featured_image: 'project_data/2024-05-07-path-planning/cover.gif'
 date: 2024-05-07
 ---
 
 ## Introduction
-This project serves as a comprehensive demonstration of robotics theory and 3D kinematics through the simulation and control of a three-jointed anthropomorphic arm. It emphasizes the application of Denavit-Hartenberg (DH) parameters to meticulously compute both forward and inverse kinematics, showcasing a deep understanding of robotics principles in practical scenarios.
+Mobile robot path planning is a foundational skill in robotics, enabling robots to navigate environments autonomously and efficiently. This project served as an exercise in implementing Dijkstra's pathfinding algorithm from scratch using ROS2 and Nav2. By swapping out Nav2's default planner for a custom Dijkstra implementation, this project demonstrates how a widely recognized pathfinding algorithm can be used in a factory floor simulation to facilitate autonomous navigation.
 
 ## Objectives
-- To apply Denavit-Hartenberg parameters in setting up and validating kinematic models for a 3D robotic arm.
-- To develop robust simulation and control systems that can accurately predict and manipulate joint behaviors in 3D space.
+- Replace the default Nav2 planner with a custom implementation of Dijkstra's Algorithm.
+- Develop a functional pathfinding solution in C++ as a practical exercise in mobile robot navigation.
 
 ## Tools and Technologies
-
-- **Programming Languages:** Python
-- **Frameworks and Libraries:** ROS, RViz, Gazebo
-- **Additional Tools:** Custom RQT plugins, visualization markers
+- **Programming Languages:** C++
+- **Frameworks and Libraries:** ROS2, Nav2
+- **Simulation Environment:** Gazebo
 - **Version Control:** Git
 
 ## Source Code
-- [GitHub 3D Kinematics Repository](https://github.com/MiguelSolisSegura/arm_kinematics)
+- [GitHub Nav2 Dijkstra Planner Repository](https://github.com/MiguelSolisSegura/nav2_dijkstra_planner)
 
 ## Process and Development
-The project followed a structured approach, focusing primarily on the kinematic analysis and control of the robotic arm.
+The development process involved setting up the ROS2 workspace, configuring the Nav2 stack, implementing Dijkstra's pathfinding algorithm, and testing the solution within a simulated environment.
 
-### Kinematic Framework Setup
-**Denavit-Hartenberg Configuration:** Precisely defined each joint and link using the DH parameters, which are crucial for the kinematic chain calculations.
+### Project Setup
+**Environment Configuration:** The ROS2 workspace was prepared, and the starter code was cloned to initialize the Gazebo simulation and the Nav2 navigation stack.
 
-**Simulation and Visualization:** Configured and launched the Gazebo and RViz environments to dynamically simulate and visualize the arm's movements based on the kinematic models.
+**Planner Configuration:** In the Nav2 configuration file `planner_server.yaml`, the plugin for the `GridBased` planner was swapped to `nav2_dijkstra_planner/DijkstraGlobalPlanner`, pointing to the new planner's implementation.
 
-### Kinematic Analysis and Validation
-**Forward Kinematics:** Implemented scripts to calculate the position and orientation of the end-effector for given joint configurations, using the established DH parameters.
+**Simulation Launch:** Gazebo and Nav2 were launched to verify that the new planner loaded successfully and that the robot could be controlled via Rviz2.
 
-**Inverse Kinematics:** Developed and tested algorithms capable of determining viable joint configurations to achieve desired end-effector positions, ensuring the solutions respected physical joint constraints.
+### Implementation of Dijkstra’s Algorithm
+**Initial Setup:** The initial setup required writing Dijkstra's pathfinding algorithm in C++ within the provided `nav2_dijkstra_planner.cpp` file.
 
-### Motion Planning
-**Complex Path Following:** Engineered motion planning algorithms to command the arm along predetermined 3D trajectories, highlighting the arm’s capability to execute complex movements smoothly.
+**Algorithm Steps:**
+- **Phase I:** Extract nodes with the lowest cost from the open list, marking them as visited while iterating toward the goal.
 
-![](/project_data/2024-05-11-arm-kinematics/kinematics.gif)
+- **Case I and II:** Evaluate neighboring nodes based on whether they are already in the open list or closed list, updating their cost and parent nodes where necessary.
+
+- **Phase II:** Once the goal is reached, the path is traced backward from the goal to the starting node using each node’s parent node.
+
+**Testing and Verification:** The implementation was verified by launching Gazebo and Nav2 to ensure the new planner initialized correctly. Using Rviz2, goals were set at different locations on the map, and the robot navigated to them autonomously.
+
+![](/project_data/2024-05-07-path-planning/robot_nav.gif)
 
 ## Results
-The project effectively demonstrated the application of fundamental robotics theories in a 3D context, using kinematic calculations to drive realistic simulations and precise control of an anthropomorphic robotic arm.
+The project successfully demonstrated how a well-known pathfinding algorithm like Dijkstra's could be implemented from scratch within the Nav2 framework. Although the planning process was slower than the default planner, the algorithm reliably computed paths that avoided obstacles and led the robot to the goal location.
 
 ## Key Insights
-- Mastery of Denavit-Hartenberg parameters is essential for accurate kinematic modeling and control in robotics.
-- Theoretical knowledge in robotics can be effectively translated into practical applications that simulate real-world scenarios.
+- Implementing a pathfinding algorithm requires careful attention to the logical flow and data structure setup.
+- Variable names and comments play a crucial role in debugging and enhancing code readability.
+- Although not optimized for speed, Dijkstra's Algorithm remains an effective pathfinding solution.
