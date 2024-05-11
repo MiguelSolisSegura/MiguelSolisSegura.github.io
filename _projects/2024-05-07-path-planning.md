@@ -35,11 +35,11 @@ The development process involved setting up the ROS2 workspace, configuring the 
 **Initial Setup:** The initial setup required writing Dijkstra's pathfinding algorithm in C++ within the provided `nav2_dijkstra_planner.cpp` file.
 
 **Algorithm Steps:**
-- **Phase I:** Extract nodes with the lowest cost from the open list, marking them as visited while iterating toward the goal.
+**Phase I:** Extract nodes with the lowest cost from the open list, marking them as visited while iterating toward the goal.
 
-- **Case I and II:** Evaluate neighboring nodes based on whether they are already in the open list or closed list, updating their cost and parent nodes where necessary.
+**Case I and II:** Evaluate neighboring nodes based on whether they are already in the open list or closed list, updating their cost and parent nodes where necessary.
 
-- **Phase II:** Once the goal is reached, the path is traced backward from the goal to the starting node using each node’s parent node.
+**Phase II:** Once the goal is reached, the path is traced backward from the goal to the starting node using each node’s parent node.
 
 **Testing and Verification:** The implementation was verified by launching Gazebo and Nav2 to ensure the new planner initialized correctly. Using Rviz2, goals were set at different locations on the map, and the robot navigated to them autonomously.
 
