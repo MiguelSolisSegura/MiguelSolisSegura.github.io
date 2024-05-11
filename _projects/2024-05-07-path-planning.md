@@ -1,8 +1,8 @@
 ---
-title: '3D Arm Kinematics Analysis and Control'
-subtitle: 'Mastering 3D Motion Planning and Control for an Anthropomorphic Robotic Arm'
-featured_image: 'project_data/2024-05-11-arm-kinematics/kinematics.gif'
-date: 2024-05-11
+title: 'Mobile Robot Path Planning with Nav2 and Dijkstra’s Algorithm'
+subtitle: 'Implementing Dijkstra's Algorithm as an Exercise in Path Planning'
+featured_image: 'project_data/2024-05-07-path-planning/cover.gif'
+date: 2024-05-07
 ---
 
 ## Introduction
