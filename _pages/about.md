@@ -7,8 +7,6 @@ Hello, I'm Miguel Solís Segura, a dedicated Robotics Engineer with a robust bac
 
 <img src="/images/about.jpg" alt="About Me" width="70%">
 
-![](/images/about.jpg)
-
 Throughout my journey, I've worked on several key projects, including:
 
 - Unmanned Aerial Vehicles: Implementing and testing a visual inertial odometry algorithm in the Gazebo simulator, enhancing my skills in robotics simulation and custom scenario design.
