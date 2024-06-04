@@ -5,7 +5,7 @@ featured_image: /images/about.jpg
 
 Hello, I'm Miguel Solís Segura, a dedicated Robotics Engineer with a robust background in Mechatronics. My journey in robotics is fueled by a deep passion for innovation and technology, which has led me to work on a wide range of projects and develop proficiency in various cutting-edge technologies.
 
-<img src="/images/about.jpg" alt="About Me" width="50%">
+<img src="/images/about.jpg" alt="About Me" width="70%">
 
 ![](/images/about.jpg)
 
