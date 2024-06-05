@@ -9,8 +9,8 @@ Hello, I'm Miguel Solís Segura, a dedicated Robotics Engineer with a robust bac
 
 Throughout my journey, I've worked on several key projects, including:
 
-- Unmanned Aerial Vehicles: Implementing and testing a visual inertial odometry algorithm in the Gazebo simulator, enhancing my skills in robotics simulation and custom scenario design.
-- DVS Plugin for Gazebo: Developing a Dynamic Vision Sensor (DVS) plugin and exploring distributed simulation, which allowed me to delve deep into sensor integration and advanced simulation techniques.
+- Unmanned Aerial Vehicles: Implementing and testing a visual inertial odometry algorithm in the Gazebo simulator, enhancing my skills in robotics simulation and custom scenario design. [1 (Spanish)](https://drive.google.com/drive/folders/1Dmei984ACG8LMDWPM2aDeSLuJoGLLWCl?usp=sharing)
+- DVS Plugin for Gazebo: Developing a Dynamic Vision Sensor (DVS) plugin and exploring distributed simulation, which allowed me to delve deep into sensor integration and advanced simulation techniques. [2](https://drive.google.com/drive/folders/1P0mIp7zBx-AfaKiSvhH2YbSjNwhjwzEV?usp=sharing)
 - Control and Manipulation: Working on robotic control systems and manipulation projects, gaining hands-on experience with different types of actuators and control algorithms.
 - Computer Vision and Perception: Implementing computer vision algorithms for object detection and tracking, as well as perception systems for autonomous navigation.
 - Navigation: Developing and optimizing navigation algorithms for mobile robots, including SLAM (Simultaneous Localization and Mapping) and path planning.
