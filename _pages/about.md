@@ -29,15 +29,13 @@ ROS1 and ROS2: Proficient in both ROS1 and ROS2, enabling me to develop and inte
 
 Gazebo: Extensive experience with the Gazebo simulator for testing and validating robots in realistic scenarios. [[11]](https://miguelsolissegura.com/project/ros2-components) [[12]](https://miguelsolissegura.com/project/barista-robots-p1)
 
-Isaac Sim: Competent with NVIDIA's Isaac Sim to explore advanced simulation capabilities for reinforcement learning and robotics. [[PENDING]]()
+Version Control and CI/CD: Utilizing Git for version control and implementing Continuous Integration/Continuous Deployment (CI/CD) pipelines to streamline development processes. [[13]](https://miguelsolissegura.com/project/tortoisebot-tests) [[14]](https://miguelsolissegura.com/project/jenkins-ci)
 
-Version Control and CI/CD: Utilizing Git for version control and implementing Continuous Integration/Continuous Deployment (CI/CD) pipelines to streamline development processes. [[14]](https://miguelsolissegura.com/project/tortoisebot-tests) [[PENDING]]()
+Docker: Creating and managing Docker containers to ensure consistent and scalable environments for robotic applications. [[15]](https://miguelsolissegura.com/project/tortoisebot-docker)
 
-Docker: Creating and managing Docker containers to ensure consistent and scalable environments for robotic applications. [[PENDING]]()
+Web Interfaces for ROS: Developing web interfaces to interact with ROS-based systems, enhancing user experience and accessibility. [[16]](https://miguelsolissegura.com/project/tortoisebot-webapp)
 
-Web Interfaces for ROS: Developing web interfaces to interact with ROS-based systems, enhancing user experience and accessibility. [[17]](https://miguelsolissegura.com/project/tortoisebot-webapp)
-
-And last but not least, practical experience assembling physical robots from scratch. [[18]](https://miguelsolissegura.com/project/tortoisebot)
+And last but not least, practical experience assembling physical robots from scratch. [[17]](https://miguelsolissegura.com/project/tortoisebot)
 
 ---
 
