@@ -2,10 +2,12 @@
 title: Miguel Solís Segura
 ---
 
+---
+
 ## Contact Information
 
 - **Location:** San José, Costa Rica  
-- **Email:** [Use the following form](https://miguelsolissegura.com/contact)
+- **Email:** [Use this form.](https://miguelsolissegura.com/contact)
 - **LinkedIn:** [linkedin.com/in/MiguelSolisSegura](https://linkedin.com/in/MiguelSolisSegura)
 - **GitHub:** [github.com/MiguelSolisSegura](https://github.com/MiguelSolisSegura)
 
