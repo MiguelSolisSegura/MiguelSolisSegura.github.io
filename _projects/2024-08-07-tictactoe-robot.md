@@ -27,7 +27,7 @@ This project showcases the integration of multiple robotics and software enginee
 ## Live Presentation
 You can view the project presentation and live demonstration featuring both simulated and real robots here.
 
-<iframe src="https://youtu.be/0qSsqAPmwf8?si=_UhlefGksEGV9KXw&t=3105" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/0qSsqAPmwf8?si=Wh7aYod1haLZMnKH&amp;start=3107"  width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
 ## Process and Development
 The project is divided into several key tasks, focusing on setting up the robotic arm control, developing the perception system, integrating decision-making algorithms and creating the web application.
