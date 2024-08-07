@@ -1,7 +1,7 @@
 ---
 title: 'Automated TicTacToe Game with MyCobot 280'
 subtitle: 'Developing an Intelligent Robotic Arm System for Interactive Gameplay'
-featured_image: 'project_data/2024-08-07-tictactoe-robot/tictactoe_robot.gif'
+featured_image: 'project_data/2024-08-07-tictactoe-robot/correct_motion.gif'
 date: 2024-08-07
 ---
 
