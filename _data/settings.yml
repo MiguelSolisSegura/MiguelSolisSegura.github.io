@@ -10,8 +10,8 @@ menu_settings:
   menu_items:
     - title: 'Portfolio'
       url: '/'
-    #- title: 'Blog'
-    #  url: '/blog/'
+    - title: 'CV'
+      url: '/cv'
     - title: 'About'
       url: '/about'
     - title: 'Contact'
