@@ -7,8 +7,7 @@ title: Miguel Solís Segura
 ## Contact Information
 
 **Location:** San José, Costa Rica  
-**Email:** [Use this form.](https://miguelsolissegura.com/contact)
-**Website:** [miguelsolissegura.com](http://miguelsolissegura.com)  
+**Email:** [Use this form](https://miguelsolissegura.com/contact)  
 **GitHub:** [github.com/MiguelSolisSegura](https://github.com/MiguelSolisSegura)  
 **LinkedIn:** [in/MiguelSolisSegura](https://linkedin.com/in/MiguelSolisSegura)
 
@@ -75,15 +74,15 @@ Robotics Software Developer with extensive experience in **ROS/ROS2**, **C++**, 
 
 ## **Certifications**
 
-- **Robotics Developer Masterclass** | The Construct  
+### **Robotics Developer Masterclass** | The Construct  
   - *August 2024*  
   - Focus: Advanced **ROS1** and **ROS2**, Gazebo Simulation, Robotics Applications.
 
-- **Reinforcement Learning Specialization** | University of Alberta  
+### **Reinforcement Learning Specialization** | University of Alberta  
   - *April 2022*  
   - Focus: **RL Algorithms**, **Deep Q-Learning**, **Policy Gradient Methods**.
 
-- **Deep Learning Nanodegree Program** | Udacity  
+### **Deep Learning Nanodegree Program** | Udacity  
   - *April 2020*  
   - Focus: Neural Networks, Convolutional Networks, Sequence Models.
 
