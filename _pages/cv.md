@@ -6,61 +6,99 @@ title: Miguel Solís Segura
 
 ## Contact Information
 
-- **Location:** San José, Costa Rica  
-- **Email:** [Use this form.](https://miguelsolissegura.com/contact)
-- **LinkedIn:** [linkedin.com/in/MiguelSolisSegura](https://linkedin.com/in/MiguelSolisSegura)
-- **GitHub:** [github.com/MiguelSolisSegura](https://github.com/MiguelSolisSegura)
+**Location:** San José, Costa Rica  
+**Email:** [Use this form.](https://miguelsolissegura.com/contact)
+**Website:** [miguelsolissegura.com](http://miguelsolissegura.com)  
+**GitHub:** [github.com/MiguelSolisSegura](https://github.com/MiguelSolisSegura)  
+**LinkedIn:** [in/MiguelSolisSegura](https://linkedin.com/in/MiguelSolisSegura)
 
 ---
 
-## Professional Summary
+## **Professional Summary**
 
-Dedicated and innovative Robotics Engineer with a strong foundation in Mechatronics, proficient in ROS1, ROS2, and Gazebo. Experienced in international collaborative projects focusing on visual-inertial odometry and distributed simulation. Skilled in control, manipulation, computer vision, navigation, CAD design, CI/CD, Docker, and web interfaces for robotics. Proficient in machine learning frameworks, including PyTorch and Scikit-Learn.
-
----
-
-## Experience
-
-### Product Development Engineer | Intel Corporation
-**Jun. 2021 — Feb. 2024**
-- Developed and wrote tests interfacing with hardware to ensure Xeon processor performance and reliability.
-- Conducted extensive data analysis, enhancing testing methodologies and improving software tool efficiency, resulting in a 75% productivity increase.
-- Collaborated with an international team in Mexico on a visual-inertial odometry project, enhancing navigation in autonomous aerial vehicles in outdoors environments. [[1]](https://drive.google.com/drive/folders/1Dmei984ACG8LMDWPM2aDeSLuJoGLLWCl?usp=sharing)
-- Worked with a research team from Germany on Gazebo DVS sensor integration and distributed simulation, contributing to advanced robotics simulation techniques. [[2]](https://drive.google.com/drive/folders/1P0mIp7zBx-AfaKiSvhH2YbSjNwhjwzEV?usp=sharing)
-- Actively participated in the Great Place to Work committee, planning and coordinating team-building activities to enhance departmental morale and cohesion.
+Robotics Software Developer with extensive experience in **ROS/ROS2**, **C++**, and **Python**. Specializes in platform-agnostic robotics solutions across **Windows** and **Linux** environments. Proficient in **computer vision**, **kinematics**, **motion planning**, and **path optimization**. Skilled in DevOps practices, including **Jenkins**, **GitHub Actions**, and **Docker** for continuous integration and deployment. Fluent in English and a native Spanish speaker.
 
 ---
 
-## Education
+## **Key Skills & Tools**
 
-### Lic. Degree in Mechatronics Eng. | Costa Rica Institute of Technology
-**Mar. 2023**
-- Relevant Coursework: Robotics, PID Control, Computer Vision, Machine Learning.
-- Graduation Project: UAV Navigation System with Visual-Inertial Odometry.
-
----
-
-## Licenses & Certifications
-
-### Robotics Developer Masterclass | The Construct
-**Aug. 2024**
-- Focus: Advanced ROS1 and ROS2, Gazebo Simulation, Robotics Applications.
-
-### Reinforcement Learning Specialization | University of Alberta
-**Apr. 2022**
-- Focus: RL Algorithms, Deep Q-Learning, Policy Gradient Methods.
-
-### Deep Learning Nanodegree Program | Udacity
-**Apr. 2020**
-- Focus: Neural Networks, Convolutional Networks, Sequence Models.
+- **Programming Languages:** C++, Python  
+- **Robotics Frameworks & Simulation:** ROS/ROS2, Gazebo, RViz, Isaac Sim  
+- **Computer Vision:** OpenCV  
+- **Operating Systems:** Windows, Linux  
+- **Cloud Computing:** AWS  
+- **DevOps & CI/CD:** Jenkins, GitHub Actions, Docker  
+- **Robotics Fundamentals:** Kinematics, Motion Planning, Path Optimization  
 
 ---
 
-## Skills
+## **Professional Experience**
 
-- **Robotics & Automation:** ROS1, ROS2, Gazebo, Rapid Prototyping, CAD.
-- **Programming Languages:** Python, C++, MATLAB.
-- **Machine Learning:** PyTorch, Scikit-Learn, Reinforcement Learning, LLMs.
-- **Data Analysis:** Design of Experiments, NumPy, Pandas, Matplotlib, Seaborn.
-- **DevOps & Tools:** CI/CD, Docker, Git, GTest.
-- **Web Technologies:** Dash, HTML, CSS, JavaScript, Web Interfaces for Robotics.
+### **Product Development Engineer** | Intel Corporation  
+*June 2021 – February 2024*  
+
+**Test Program Development for Xeon Products:**
+- Collaborated with Test Program and SCAN teams to optimize Intel Xeon processor test programs, enhancing throughput and reliability in semiconductor testing.  
+- Led initiatives to integrate generative AI technologies for workflow optimization within the Test Program team.
+
+**Cross-Team Contributions with Intel Labs:**
+
+- **Outdoor UAV Localization System (Mexico Team):**
+  - Designed a low-cost 3D localization system for autonomous UAVs using fused visual, inertial, and geospatial data.
+  - Achieved a localization error of less than **28 cm**, exceeding commercial systems' accuracy at similar price points.
+  - Integrated stereo cameras, IMUs, and GNSS modules for seamless localization.
+  - Developed localization algorithms in **ROS** and **Ignition Gazebo** for simulated rescue scenarios.
+
+- **DVS Plugin Implementation and Distributed Simulation (Germany Team):**
+  - Created a **Dynamic Vision Sensor (DVS)** plugin for **Ignition Gazebo** to simulate event-based robotic vision.
+  - Conducted performance analyses of distributed simulations, identifying architectural bottlenecks and proposing solutions.
+  - Explored multi-machine simulations for scalable, large-scale robotic systems testing.
+
+---
+
+### **Freelance Robotics Engineer** | UpWork  
+*August 2024 – Present*  
+- Consulted on **ROS2** setup, custom sensor driver development, and multi-platform deployments for startups.  
+- Designed **Telekinesis**, a project mapping hand movements to robot joints via computer vision and inverse kinematics.  
+- Developed an AI-driven home assistant for visual trigger-based control of domotic devices.  
+- Collaborated with industrial designers to create product sheets and intuitive user interfaces.
+
+---
+
+## **Education**
+
+**Licenciatura in Mechatronics Engineering** | Costa Rica Institute of Technology  
+*November 2022*  
+- **Relevant Coursework:** Robotics, Artificial Intelligence, Computer Vision  
+
+---
+
+## **Certifications**
+
+- **Robotics Developer Masterclass** | The Construct  
+  - *August 2024*  
+  - Focus: Advanced **ROS1** and **ROS2**, Gazebo Simulation, Robotics Applications.
+
+- **Reinforcement Learning Specialization** | University of Alberta  
+  - *April 2022*  
+  - Focus: **RL Algorithms**, **Deep Q-Learning**, **Policy Gradient Methods**.
+
+- **Deep Learning Nanodegree Program** | Udacity  
+  - *April 2020*  
+  - Focus: Neural Networks, Convolutional Networks, Sequence Models.
+
+---
+
+## **Community Involvement & Volunteering**
+
+- **ROS Embodied AI Community Group**  
+  *December 2024 – Present*  
+  - Participate in global robotics and AI discussions.  
+  - Collaborate on open-source initiatives for embodied AI projects in the **ROS ecosystem**.
+
+---
+
+## **Languages**
+
+- **English:** Fluent  
+- **Spanish:** Native
